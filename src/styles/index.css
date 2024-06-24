@@ -10,3 +10,81 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+body{
+    margin: 0;
+    height: max-content;
+    background: url("https://www.whoa.in/download/best-desktop-wallpaper-backgrounds-photos---desktop-1080p-2k-4k-5k-hd-wallpapers-free-download");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.principalContainer{
+    width: 500px;
+    height: max-content;
+    border-radius: 20px;
+    padding-left: 104px;
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+    border: 2px solid rgba(255, 255, 255, 0.18);
+}
+
+.form{
+    display: flex;
+    flex-direction: row;  
+    flex-wrap: wrap;  
+    justify-content: flex-start;   
+    align-content: stretch;  
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.btn{
+    margin-top: 1px;
+    margin-left: 5px;
+}
+
+.btn-container{
+    visibility: hidden;
+}
+
+.todo-item:hover > .btn-container{
+    visibility: visible;
+}
+
+.form-text{
+    color: rgb(216, 216, 216);
+}
+
+.header{
+    color: white;
+    margin-bottom: 15px;
+    
+}
+.list{
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    height: 100vh; 
+}
+
+.todo-list{
+    display: flex;
+    flex-direction: column;
+    color: antiquewhite;
+}
+
+.todo-item{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.fa-trash{
+    display: grid;
+}
+.button-container{
+    display: flex;
+    justify-content: space-between;
+}
